@@ -8,7 +8,7 @@ class ListNode{
             this->val = val;
             this->next = NULL;
         } 
-}
+};
 void insert(ListNode *&head,int val){
     ListNode *newNode = new ListNode(val);
     if(head==NULL){
@@ -33,7 +33,7 @@ void printList(ListNode *head){
 int main(){
     ListNode *head = NULL;
     for(int i=2;i<=10;i++){
-        insert(head,random());
+        insert(head,rand()%100);
     }
     printList(head);
 }
