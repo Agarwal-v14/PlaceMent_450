@@ -64,7 +64,7 @@ void printTree(BinaryTree *head){
     return;
 }
 int main(){
-    int arr[] = { 10, 20, 30, 40, 50, NULL,60,100};
+    int arr[] = { 10, 20, 30, 40, 50,60,100};
     int n = sizeof(arr)/sizeof(arr[0]);
     BinaryTree *head = createTree(arr,n);
     printTree(head);
