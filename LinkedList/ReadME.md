@@ -1,2 +1,2 @@
 ### Attention
-Please read Linked Class File First before going to any solution. 
+Please read LinkedListClass.cpp First before going to any solution. 
